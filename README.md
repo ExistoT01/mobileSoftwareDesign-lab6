@@ -25,37 +25,50 @@
 
 1. 项目创建
 
-   <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825231548836.png" alt="image-20220825231548836" style="zoom:80%;" />
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003088.png" alt="image-20220825231548836" style="zoom:80%;" />
 
 2. 新建`ScrollView`，确定内部父布局
 
-   <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825231733462.png" alt="image-20220825231733462" style="zoom:80%;" />
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003090.png" alt="image-20220825231733462" style="zoom:80%;" />
 
 3. 创建顶部首页显示栏，调整相关参数
 
-   <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825232046151.png" alt="image-20220825232046151" style="zoom:80%;" />
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003091.png" alt="image-20220825232046151" style="zoom:80%;" />
 
 4. 创建顶部图片，修改相关参数
 
-   <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825232316896.png" alt="image-20220825232316896" style="zoom:80%;" />
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003092.png" alt="image-20220825232316896" style="zoom:80%;" />
 
 5. 实现菜单栏模块
 
    1. 先实现一个横向的`LinearLayout`作为父布局
 
-      <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825232828332.png" alt="image-20220825232828332" style="zoom:80%;" />
+      <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003093.png" alt="image-20220825232828332" style="zoom:80%;" />
 
    2. 写4个子布局
 
-      <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220825233545402.png" alt="image-20220825233545402" style="zoom:80%;" />
+      <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003094.png" alt="image-20220825233545402" style="zoom:80%;" />
 
 6. 消息模块
 
-   <img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20220826002317977.png" alt="image-20220826002317977" style="zoom:80%;" />
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003095.png" alt="image-20220826002317977" style="zoom:80%;" />
 
-7. 底部Tab模块
+7. 两条消息内容
 
-   1. 
+   1. 新建一些颜色圆角形状备用
+
+      <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003096.png" alt="image-20220826095841639" style="zoom:80%;" />
+
+   2. 创建消息卡片
+
+      <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003097.png" alt="image-20220826095959566" style="zoom:80%;" />
+
+8. 底部Tab模块，采用相对布局
+
+   <img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003098.png" alt="image-20220826100024508" style="zoom:80%;" />
+
+   
+
 
 
 
@@ -64,9 +77,9 @@
 
 列出程序的最终运行结果及截图。
 
-<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208252035832.png" alt="image-20220825202745191" style="zoom:80%;" />
+<img src="https://expicture.oss-cn-beijing.aliyuncs.com/img/202208261003099.png" alt="image-20220826100100506" style="zoom:80%;" />
 
 ## 四、问题总结与体会
 
-本次实验是安卓程序的入门，简单掌握了基础控件的使用，模拟完成了微信的「发现」界面
+本次实验仿照其他安卓app简单写了一个首页界面，练习了相对布局的用法，`ScrollView`的作用在本实验体现出来的地方不大，而且`tabBar`也不具有吸底的效果，安卓的开发在很大程度上要比小程序的开发复杂得多
 

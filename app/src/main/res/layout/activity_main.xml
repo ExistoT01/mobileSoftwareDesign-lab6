@@ -335,8 +335,7 @@
 
             </LinearLayout>
 
-
-                  底部TabBar
+            <!-- 底部TabBar -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
